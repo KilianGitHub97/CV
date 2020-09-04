@@ -185,6 +185,34 @@ footer div p{
     top:10px;
 }
 
+/*-- About Me --*/
+.cv div{
+    margin: 30px 50px;
+}
+
+.cv div h2{
+    margin-bottom: 15px;
+}
+
+.cv div .abstract{
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    width: -25%;
+}
+
+.cv div .main_text{
+    line-height: 1.4;
+    clear: both;
+}
+
+.cv div img{
+    width: 21%;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+
 @media (max-width: 700px){
   .checkbtn{
     display: block;
@@ -256,6 +284,17 @@ footer div p{
     z-index: 1;
     height: 110px;
     margin-bottom: 20px;
+}
+/*-- About Me --*/
+.cv div .abstract{
+    font-style: italic;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.cv div img{
+display: none;
 }
 
 }
