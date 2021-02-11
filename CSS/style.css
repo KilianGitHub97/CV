@@ -1,16 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 *{
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-    
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .maxwidth{
@@ -71,7 +68,7 @@ a.active,a:hover{
   display: none;
 }
 .internallink{
-    color:  darkgrey;
+    color: darkgrey;
 }
 
 .profilepicture{
@@ -215,8 +212,8 @@ footer div p{
 }
 
 
-@media (max-width: 700px){
-  .checkbtn{
+@media (max-width: 700px){ 
+ .checkbtn{
     display: block;
   }
     
@@ -258,7 +255,6 @@ footer div p{
     margin-left: auto;
     margin-right: auto;
   }
-    
   footer div p{
     display: none;
   }
