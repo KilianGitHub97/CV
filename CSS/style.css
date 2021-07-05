@@ -101,6 +101,7 @@ a.active,a:hover{
 }
 
 footer{
+    clear: both;
     background-color: white;
     box-shadow: 0px -4px 10px -2px darkgray;
     height: 55px;
@@ -212,6 +213,29 @@ footer div p{
     margin: 0 15px 10px 0;
 }
 
+#bachelorcourses {
+    display: inline-block;
+    float: left;
+    width: 42%;
+    box-shadow: 0px -4px 10px -2px darkgray;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+#mastercourses {
+    display: inline-block;
+    float: right;
+    width: 42%;
+    box-shadow: 0px -4px 10px -2px darkgray;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.listpoint{
+    list-style-type: circle;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 700px){ 
  
@@ -297,4 +321,16 @@ footer div p{
     display: none;
 }
 
+#bachelorcourses {
+   display: none;
+}
+
+#mastercourses {
+    display: none;
+}
+    
+.listpoint{
+    display: none;
+}
+    
 }
