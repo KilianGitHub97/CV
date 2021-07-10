@@ -322,15 +322,15 @@ footer div p{
 }
 
 #bachelorcourses {
-   display: none;
+    display:none;
 }
 
 #mastercourses {
-    display: none;
+    display:none;
 }
-    
+  
 .listpoint{
-    display: none;
+    display:none;
 }
     
 }
